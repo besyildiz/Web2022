@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+<head>  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/
+bootstrap.min.css"></head>
+<body>
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+ <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist
+/js/bootstrap.bundle.min.js"></script>
+
+
+
+
+
+ <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#Detaylar">
+ Ürün Detayları
+</button>
+
+<!-- <button> elemanının data-target değeri Modal’ın id değerine uygun olmalıdır.
+-->
+ <div class="modal" id="Detaylar">
+ <div class="modal-dialog">
+ <div class="modal-content">
+ <!-- Modal Başlığı -->
+ <div class="modal-header">
+ <h4 class="modal-title">Ürün Özellikleri</h4>
+ <button type="button" class="close" data-dismiss="modal">&times;</button>
+ </div>
+ <!-- Modal İçeriği -->
+ <div class="modal-body">
+ <ul>
+ <li>8 Çekirdekli İşlemci</li>
+ <li>2 GB Paylaşımlı Ekran Kartı</li>
+ <li>8 GB Ram(Sistem Belleği)</li>
+ <li>1 TB Sabit Disk</li>
+ <li>15,6 inç Ekran Boyutu</li>
+ </ul>
+ </div>
+ <!-- Modal Alt Bölümü -->
+ <div class="modal-footer">
+ <button type="button" class="btn btn-info"> Sepete Ekle</button>
+ <button type="button" class="btn btn-danger" data-dismiss="modal">İptal</button>
+ </div>
+ </div>
+ </div>
+ </div>
+
+
+
+<br/><br/><br/>
+
+
+
+ <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#Sepetim">
+Sepete eklediğiniz ürünler
+</button>
+
+<!-- <button> elemanının data-target değeri Modal’ın id değerine uygun olmalıdır.
+-->
+ <div class="modal" id="Sepetim">
+ <div class="modal-dialog">
+ <div class="modal-content">
+ <!-- Modal Başlığı -->
+ <div class="modal-header">
+ <h4 class="modal-title">Sepenizdeki ürünler</h4>
+ <button type="button" class="close" data-dismiss="modal">&times;</button>
+ </div>
+ <!-- Modal İçeriği -->
+ <div class="modal-body">
+ <ul>
+ <li>Elma</li>
+ <li>Armut</li>
+ <li>Muz</li>
+ <li>Patlıcan</li>
+ <li>Kavun</li>
+ </ul>
+ </div>
+ <!-- Modal Alt Bölümü -->
+ <div class="modal-footer">
+ <button type="button" class="btn btn-info"> Sepete Ekle</button>
+ <button type="button" class="btn btn-danger" data-dismiss="modal">İptal</button>
+ </div>
+ </div>
+ </div>
+ </div>
+
+
+
+
+</body>
+</html>
